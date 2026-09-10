@@ -1,0 +1,10 @@
+object = "lighter"
+units = "m"
+angle_units = "rad"
+
+# The cap uses the body's x/y dimensions; only its height is independent.
+body_size = [0.012, 0.037, 0.033]
+cap_height = 0.019
+
+joint_lower = -1.57
+joint_upper = 0.0

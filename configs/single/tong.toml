@@ -1,0 +1,9 @@
+object = "tong"
+units = "m"
+angle_units = "rad"
+
+# Both links use this same [x, y, z] size.
+link_size = [0.020, 0.120, 0.005]
+
+joint_lower = -0.30
+joint_upper = 0.20

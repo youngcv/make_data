@@ -1,0 +1,14 @@
+object = "lighter"
+units = "m"
+angle_units = "rad"
+
+# One [min, max] range per [x, y, z] axis.
+body_size_ranges = [
+    [0.010, 0.020],
+    [0.030, 0.040],
+    [0.030, 0.050],
+]
+cap_height_range = [0.015, 0.03]
+
+joint_lower = -1.57
+joint_upper = 0.0

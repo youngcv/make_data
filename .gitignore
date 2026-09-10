@@ -1,0 +1,5 @@
+.codex
+.agents
+__pycache__/
+*.pyc
+assets/

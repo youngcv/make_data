@@ -1,0 +1,1 @@
+"""Object generation entry points."""

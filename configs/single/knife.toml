@@ -1,0 +1,10 @@
+object = "knife"
+units = "m"
+
+# [x thickness, y width, z length]
+body_size = [0.027, 0.014, 0.125]
+slider_size = [0.010, 0.003, 0.030]
+
+# Linear values use the selected length unit.
+edge_clearance = 0.020
+joint_travel = 0.050

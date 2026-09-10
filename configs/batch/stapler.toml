@@ -1,0 +1,13 @@
+object = "stapler"
+units = "m"
+angle_units = "rad"
+
+# Both links share these [x, y, z] ranges.
+link_size_ranges = [
+    [0.020, 0.035],
+    [0.100, 0.140],
+    [0.005, 0.020],
+]
+
+joint_lower_range = [-0.40, -0.20]
+joint_upper = 0.2

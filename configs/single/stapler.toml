@@ -1,0 +1,9 @@
+object = "stapler"
+units = "m"
+angle_units = "rad"
+
+# Both links use this same [x, y, z] size.
+link_size = [0.028, 0.100, 0.014]
+
+joint_lower = -0.20
+joint_upper = 0.20

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="lighter">
+	<link name="link_0">
+		<visual name="link_0">
+			<origin xyz="0.0 0.0 0.0" />
+			<geometry>
+				<box size="0.02 0.04 0.04" /></geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.0 0.0 0.0" />
+			<geometry>
+				<box size="0.02 0.04 0.04" /></geometry>
+		</collision>
+		</link>
+	<link name="link_1">
+		<visual name="link_1">
+			<origin xyz="0.0 0.02 0.01" />
+			<geometry>
+				<box size="0.02 0.04 0.02" /></geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.0 0.02 0.01" />
+			<geometry>
+				<box size="0.02 0.04 0.02" /></geometry>
+		</collision>
+		</link>
+	<joint name="joint_0" type="revolute">
+		<origin xyz="0 -0.02 0.02" />
+		<axis xyz="-1 0 0" />
+		<child link="link_1" />
+		<parent link="link_0" />
+		<limit lower="-1.5707963267948966" upper="-0.0" effort="100.0" velocity="3.14" />
+	</joint>
+</robot>
